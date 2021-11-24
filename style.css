@@ -1,0 +1,54 @@
+body {
+	margin: 0%;
+	padding: 0%;
+	background-color: rgba(0, 0, 0, 0.938);
+}
+
+.navbar {
+	background-color: transparent;
+	position: relative;
+	z-index: 4;
+}
+
+.navbar-brand {
+	font-size: 22px;
+}
+
+.nav-link {
+	font-size: 16px;
+}
+
+main {
+	position: absolute;
+	top: 0%;
+	z-index: 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	width: 8%;
+}
+
+.site-wrapper {
+	height: 640px;
+}
+
+.card {
+	background-color: rgba(0, 0, 0, 0.712);
+}
+
+.parallax {
+	background-image: url('stock/cropped-1920-1080-204036.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+@media only screen and (max-device-width:320px) {
+	.site-wrapper {
+		height: 200px;
+	}
+	.col-md-4 {
+		margin: 5% 0%;
+	}
+}
